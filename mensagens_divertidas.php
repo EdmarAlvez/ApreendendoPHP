@@ -39,6 +39,37 @@
 			echo "<br>";
 			
 			//arrays
+			echo "<br>";
+			echo "========ARRAY=======";
+			echo "<br>";
+			echo "<br>";
+			$mensagens_divertidas[1] = 'Olá sou Edmar';
+			$mensagens_divertidas[2] = 'Estudo ADS';
+			$mensagens_divertidas[3] = 'Estou atrás de um emprego';
+			$mensagens_divertidas[4] = 'Quero muito Apreender';
+			$mensagens_divertidas[5] = 'Valeu e obg!';
+			echo "<br>";
+			
+			// outro modo
+
+			$mensagens_divertidas1 = array('a' => 'Ola edmar' , 'b' => 'OK OK' ); 
+
+			echo "<br>";
+			echo "<br>";
+
+			
+			
+			var_dump($mensagens_divertidas);
+			echo "<br>";
+			echo "<br>";
+			print_r($mensagens_divertidas);
+			echo "<br>";
+			echo "<br>";
+			echo $mensagens_divertidas[3];
+			echo "<br>";
+			echo "<br>";
+			print_r($mensagens_divertidas1)
+
 
 
 		?>
